@@ -2,6 +2,9 @@
 
 A responsive dashboard layout built with HTML and CSS Grid.
 
+## Update
+
+This change was made directly on GitHub.
 
 ## Features
 
