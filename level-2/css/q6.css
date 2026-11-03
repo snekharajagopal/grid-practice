@@ -1,0 +1,24 @@
+.btn {
+  font-size: 1rem;
+  padding: 2em;
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+}
+
+.largebtn {
+  padding: 2em;
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
