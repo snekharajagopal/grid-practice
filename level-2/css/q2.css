@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.card {
+  background-color: #f26b21;
+  padding: 30px;
+  text-align: center;
+}
+.card:first-child {
+  grid-column: span 2;
+  background-color: #8f00ff;
+}
+.card:last-child {
+  grid-column: 1/-1;
+  background-color: #8f00ff;
+}
