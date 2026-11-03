@@ -1,0 +1,17 @@
+4. Convert these px values to rem: 8px, 24px, 32px, 40px (base 16px).
+
+answers:  base px=16px  (pixel value divided by 16)
+
+8px :
+   8/16 = 0.5 rem
+
+24px:
+   24/16 =1.5 rem
+
+32px:
+   32/16 = 2 rem
+
+40px:
+   40/16 =2.5 rem
+
+
