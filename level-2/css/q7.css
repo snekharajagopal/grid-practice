@@ -3,6 +3,9 @@
   background: #5b2a86;
   color: white;
   padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .container {
   display: grid;
@@ -23,4 +26,15 @@
   color: white;
   padding: 1rem;
   text-align: center;
+}
+.navbar {
+  display: flex;
+  gap: 2rem;
+
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
 }
