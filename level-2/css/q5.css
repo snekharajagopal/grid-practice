@@ -1,0 +1,11 @@
+.hero {
+  background-color: lightblue;
+  height: 70vh;
+  text-align: center;
+}
+h1 {
+  font-size: 6vw;
+}
+p {
+  font-size: 2rem;
+}
