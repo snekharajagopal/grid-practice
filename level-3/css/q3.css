@@ -1,0 +1,20 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    grid-auto-flow: dense;
+    grid-auto-rows: 120px;
+    
+}
+.photo{
+    background-color: #f26b21;
+    
+    padding: 10px;
+}
+.photo:nth-child(1){
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.photo:nth-child(4){
+    grid-row: span 2;
+}

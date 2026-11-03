@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #5b2a86;
+  padding: 1rem;
+  margin: 10px;
+}
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .links {
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+  }
+}
