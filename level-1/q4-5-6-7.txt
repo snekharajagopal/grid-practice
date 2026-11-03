@@ -1,0 +1,52 @@
+4. Convert these px values to rem: 8px, 24px, 32px, 40px (base 16px).
+
+answers:  base px=16px  (pixel value divided by 16)
+
+8px :
+   8/16 = 0.5 rem
+
+24px:
+   24/16 =1.5 rem
+
+32px:
+   32/16 = 2 rem
+
+40px:
+   40/16 =2.5 rem
+
+
+   
+ 5. Add the viewport meta tag to a page and explain in one line what it does
+
+ answers:  It makes the webpage use the device's actual screen width and sets the initial zoom level and no zoom when the page loads, helping the page display correctly on mobile devices.
+
+  6. Run git init, create index.html and make your first commit. Show the result with git log --oneline.
+
+ answers:
+  PS C:\Users\USER\Documents\hackgenix-day5-6\responsive-pricing-page> git log --oneline
+290c66f (HEAD -> main) create index.html for responsive-pricing-page
+
+
+7.Show the difference between git add and git commit using the output of git status after each.
+
+answers:
+PS C:\Users\USER\Documents\hackgenix-day5-6\responsive-pricing-page> git add style.css
+PS C:\Users\USER\Documents\hackgenix-day5-6\responsive-pricing-page> git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   style.css
+
+PS C:\Users\USER\Documents\hackgenix-day5-6\responsive-pricing-page> git commit -m "create css.style for responsive pricing page"
+[main 8e75798] create css.style for responsive pricing page
+ 1 file changed, 35 insertions(+)
+ create mode 100644 style.css
+PS C:\Users\USER\Documents\hackgenix-day5-6\responsive-pricing-page> git status
+On branch main
+nothing to commit, working tree clean
+
+
+git add: stage the file. it selects the file  for the next commit.
+git commit:  save a snapshot with a message . saves the staged changes in the git history.
+
+
