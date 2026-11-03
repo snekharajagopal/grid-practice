@@ -1,0 +1,13 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+.card {
+  background-color: #f26b21;
+  padding: 30px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}

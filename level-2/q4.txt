@@ -1,0 +1,8 @@
+4.Make  a gallery with repeat(auto-fit, minmax(200px, 1fr)) and explain what happens when you
+resize.
+answers: if the screen is wide, it can fit as much card that can fit.
+  without breaking anything, it will fit to their device width.
+ 
+ Wide screen -more columns can fit.
+ Smaller screen - fewer columns fit.
+ Phone - usually one column.
