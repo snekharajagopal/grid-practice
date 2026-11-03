@@ -2,6 +2,9 @@
 
 A responsive dashboard layout built with HTML and CSS Grid.
 
+## Local Update
+
+This change was made directly on GitHub.
 
 ## Features
 
@@ -17,10 +20,12 @@ A responsive dashboard layout built with HTML and CSS Grid.
 - Git and GitHub
 
 ## How to Run
+
 (index.html file is not here)
+
 1. Download or clone this repository.
 2. Open `index.html` in any web browser.
-3. Resize the browser window to see the responsive layout change. 
+3. Resize the browser window to see the responsive layout change.
 
 ## Author
 
